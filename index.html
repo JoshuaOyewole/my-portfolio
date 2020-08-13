@@ -4,63 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joshua Oyewole - JavaScript Developer</title>
+    <script src="https://kit.fontawesome.com/6b2284f8b4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo"><img src="img/logo-green-small-2x.png" alt="logo of Joshua Oyewole" class="logo__img"></div>
+        <div class="logo"><img src="img/logo.png" alt="logo of Joshua Oyewole" class="logo__img"></div>
         <ul class="list-group">
             <li class="list-group__item"><a href="Home">Home</a></li>
-            <li class="list-group__item"><a href="#About">About</a></li>
-            <li class="list-group__item"><a href="#Portfolio">Portfolio</a></li>
-            <li class="list-group__item"><a href="#Blog">Blog</a></li>
-            <li class="list-group__item"><a href="#Contact">Contact</a></li>
+            <li class="list-group__item"><a href="#about">About</a></li>
+            <li class="list-group__item"><a href="#portfolio">Portfolio</a></li>
+            <li class="list-group__item"><a href="#blog">Blog</a></li>
+            <li class="list-group__item"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <header>
-          <div class="header__content">
-            <h4 class="header_content header__content--small">Hi,</h4>
-            <h1 class="header_content header__content--heading">I am Joshua Oyewole</h1>
-            <h3 class="header_content header__content--position">Front End Developer</h3>
-            <p>"Without Customer's, there will not be Business." <br> I help business owners create websites that <strong>metamorphese</strong> into clients.</p>
-            <div class="quick__links">
-                <a href="github.com/JoshuaOyewole"><i class="fas fa-github"></i>GitHub</a>
-                <a href="@mailto:me@joshuaOyewole.com"><i class="fas fa-github"></i>Email</a>
-                <a href="linkedIn.com/JoshuaOyewole"><i class="fas fa-linkedIn"></i>LinkedIn</a>
+        <div class="left">
+            <div class="header__content">
+                <h4 class="header_content header__content--small">Hi,</h4>
+                <h1 class="header_content header__content--heading">I am Joshua Oyewole</h1>
+                <h3 class="header_content header__content--position">Front End Developer</h3>
+                <p>"Without Customer's, there will not be Business." <br> I help business owners create websites that <strong>metamorphese</strong> into clients.</p>
+                <div class="quick__links">
+                    <a href="github.com/JoshuaOyewole" class="quick_link"> <i class="fab fa-github"></i> GitHub</a>
+                    <a href="@mailto:me@joshuaOyewole.com" class="quick_link"><i class="far fa-envelope"> </i> Email</a>
+                    <a href="linkedIn.com/JoshuaOyewole" class="quick_link"> <i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+    
+                <div class="c-t-a__btn">
+                     <a href="quote.html" class="btn btn__primary m-r-small"><i class="fas fa-wifi"></i>  Let's Connect</a>
+                    <a href="/resume.pdf" class="btn btn__secondary m-r-small">Resume</a>
+                </div>
             </div>
-
-            <div class="c-t-a__btn">
-                <a href="quote.html" class="btn btn__primary">Let's Connect</a>
-                <a href="/resume.pdf" class="btn btn__secondary">Resume</a>
-            </div>
+        </div>
+        
+        <div class="right">
+            <img src="img/undraw_forming_ideas_0pav.svg" class="header-svg" alt="">
         </div>
     </header>
 
     <div class="past-clients container" >
-        MTN GLO IBM SPOTIFY IBM A.T ACADEMY 
-        <!-- SVG OF LOGOS -->
+     <div class="row">
+         <img src="img/MTN.png" alt="" class="clients-logo--p1">
+         <img src="img/spotify-seeklogo.com.svg" alt="" class="clients-logo--p1">
+         <img src="img/Globacom_Logo.png" alt="" class="clients-logo--p1">
+         <img src="img/ibm-1956-seeklogo.com.svg" alt="" class="clients-logo--p1">
+     </div>
     </div>
 
-    <section class="section-about container">
-        <h1 class="primary-header">Care to know more about me?</h1>
-        <p class="about-me">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis delectus architecto, nulla rerum quasi libero dolorum, placeat dolor est expedita eius voluptatem animi quis, in voluptas voluptate! Dolores quisquam suscipit consequatur voluptates tempora dolore, minus iste veritatis facere ex laborum ipsum minima voluptas reiciendis. Quisquam quasi ipsum tenetur culpa commodi!
-            <a href="about.html" class="btn__secondary">Read More</a>
-        </p>
+    <section class="section-about container" id="about">
+        <div class="grid-1-2">
+            <div class="left">
+                <h1 class="primary-header">Care to know more about me?</h1>
+            </div>
+                <div class="right">
+                    <p class="about-me">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis delectus architecto, nulla rerum quasi libero dolorum, placeat dolor est expedita eius voluptatem animi quis, in voluptas voluptate! Dolores quisquam suscipit consequatur voluptates tempora dolore, minus iste veritatis facere ex laborum ipsum minima voluptas reiciendis. Quisquam quasi ipsum tenetur culpa commodi! voluptatem animi quis, in voluptas voluptate! Dolores quisquam suscipit consequatur voluptates tempora dolore, minus iste veritatis facere ex laborum ipsum minima voluptas reiciendis. Quisquam quasi ipsum tenetur culpa commodi! 
+                        <div>
+                             <a href="about.html" class="btn btn__tertiary">Read More &rarr;</a>
+                        </div>
+                       
+                    </p>
+                </div>
+        </div>
+        
+       
     </section>
 
-    <section class="Methodology container">
-        <h1 class="primary-header">My Methodology</h1>
-        <div class="grid-3">
+    <section class="methodology container">
+        <h1 class="primary-header t-center m-b-big">My Methodology</h1>
+        <div class="grid-3-1-1-1">
             <div class="grid-1-of-3">
                 <div class="methodology-logo">
                     <i class="fas fa-icon"></i>
                 </div>
                 <div class="methodology-wrapper">
-                    <h3 class="methodology__header">Think</h3>
+                    <h3 class="methodology__header p-b-small">Think</h3>
                     <p class="methodology__content">
-                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere sed reprehenderit alias quibusdam a, ut sapiente adipisci. Error excepturi recusandae corporis consectetur rerum!  
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere  
                      </p>
                 </div>
             </div>
@@ -69,9 +92,9 @@
                     <i class="fas fa-icon"></i>
                 </div>
                 <div class="methodology-wrapper">
-                    <h3 class="methodology__header">Design</h3>
+                    <h3 class="methodology__header p-b-small">Analyse</h3>
                     <p class="methodology__content">
-                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere sed reprehenderit alias quibusdam a, ut sapiente adipisci. Error excepturi recusandae corporis consectetur rerum!  
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere  
                      </p>
                 </div>
             </div>
@@ -80,9 +103,19 @@
                     <i class="fas fa-icon"></i>
                 </div>
                 <div class="methodology-wrapper">
-                    <h3 class="methodology__header">Test</h3>
+                    <h3 class="methodology__header p-b-small">Design</h3>
                     <p class="methodology__content">
-                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere sed reprehenderit alias quibusdam a, ut sapiente adipisci. Error excepturi recusandae corporis consectetur rerum!  
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere
+                </div>
+            </div>
+            <div class="grid-1-of-3">
+                <div class="methodology-logo">
+                    <i class="fas fa-icon"></i>
+                </div>
+                <div class="methodology-wrapper">
+                    <h3 class="methodology__header p-b-small">Implementation</h3>
+                    <p class="methodology__content">
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere sed
                      </p>
                 </div>
             </div>
@@ -91,18 +124,68 @@
                     <i class="fas fa-icon"></i>
                 </div>
                 <div class="methodology-wrapper">
-                    <h3 class="methodology__header">Deploy</h3>
+                    <h3 class="methodology__header p-b-small">Test</h3>
                     <p class="methodology__content">
-                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere sed reprehenderit alias quibusdam a, ut sapiente adipisci. Error excepturi recusandae corporis consectetur rerum!  
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere sed
+                     </p>
+                </div>
+            </div>
+            <div class="grid-1-of-3">
+                <div class="methodology-logo">
+                    <i class="fas fa-icon"></i>
+                </div>
+                <div class="methodology-wrapper">
+                    <h3 class="methodology__header p-b-small">Deploy</h3>
+                    <p class="methodology__content">
+                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur quas dolore officia tempora necessitatibus facere sed  
                      </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="portfolio container">
-        <h1 class="primary-header">My Recent Work</h1>
-         <div class="grid-3">
+    <section class="skill-set container">
+        <h1 class="primary-header m-b-big t-center t-white">Skills</h1>
+            <div class="grid-1-2">
+                <div class="skill-right">
+               <!--    <img src="../img/content_team_3epn.svg" alt="">   -->
+                </div>
+                <div class="left grid-4-1-1">
+                    <div class="col-skill">
+                        <small>REACT</small><i class="fab fa-react fa-3x"></i> 
+                    </div>
+                    <div class="col-skill">
+                        <small>Node.Js</small> <i class="fab fa-node fa-3x"></i>
+                    </div>
+                    <div class="col-skill">
+                        <small>MySQL</small> <i class="fas fa-database fa-3x"></i>
+                    </div>
+                   <!--  <div class="col-skill">
+                        <small>WordPress</small> <i class="fab fa-wordpress fa-3x"></i>
+                    </div> -->
+                    <div class="col-skill">
+                        <small>HTML5</small> <i class="fab fa-html5 fa-3x"></i>
+                    </div>
+                    <div class="col-skill">
+                        <small>CSS</small> <i class="fab fa-css3-alt fa-3x"></i>
+                    </div>
+                    <div class="col-skill">
+                        <small>JavaScript</small> <i class="fab fa-js-square fa-3x"></i>
+                    </div>
+                    <div class="col-skill">
+                        <small>BootStrap</small> <i class="fab fa-bootstrap fa-3x"></i>
+                    </div>
+                    <div class="col-skill">
+                        <small>Sass</small> <i class="fab fa-sass fa-3x"></i>
+                    </div>    
+                </div>
+                
+            </div>
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+        <h1 class="primary-header m-b-big t-center">My Recent Work</h1>
+         <div class="grid-3-1-1-1">
             <div class="card">
                 <div class="card__img-container"><img src="#" alt="A unique and elegant design created for Amarachi talent academy" class="card__img">
                 </div>
@@ -220,16 +303,9 @@
         </div>  
     </section>
 
-    <section class="skill-set container">
-        <h1 class="primary-header">Skills</h1>
-            <div class="grid-4">
-                HTMl CSS JavaScript BootStrap Sass React (Currently Learning) Node.Js MySQL WordPress 
-            </div>
-    </section>
-
     <section class="section-testimonial container">
-        <h4>Still not convinced?</h4>
-        <h1 class="primary-header">Read what my Past Clients are Saying</h1>
+        <h4 class="m-b-medium">Still not convinced?</h4>
+        <h1 class="primary-header m-b-big">Read what my Past Clients are Saying</h1>
             <div class="testimonial">
                 <div class="testifier__img">
                     <img src="#" alt="John testifying about the quality service gotten from Joshua Oyewole">
@@ -251,37 +327,40 @@
         <a href="requestQuote.html" class="btn btn__secondary">Send me a Message</a>
     </section>
     
-    <section class="section-blog container">
+    <section class="section-blog container" id="blog">
         <h1 class="primary-header">Blog</h1>
-        <div class="blog-card">
-            <div class="blog-card__img"></div>
-            <h2 class="blog-card__title">Importance of hoisting in JavaScript</h2>
-            <p class="blog-card__text">
-                Angular 10 is released, many developers sent me messages asking we cannot see any features, yes there was no big feature, but sometimes you need to take some time to prepare for a better
-            </p>
-
-            <a href="#" class="btn btn-blog">Read More</a>
+        <div class="grid-3-1-1-1">
+            <div class="blog-card">
+                <div class="blog-card__img"></div>
+                <h2 class="blog-card__title">Importance of hoisting in JavaScript</h2>
+                <p class="blog-card__text">
+                    Angular 10 is released, many developers sent me messages asking we cannot see any features, yes there was no big feature, but sometimes you need to take some time to prepare for a better
+                </p>
+    
+                <a href="#" class="btn btn-blog">Read More</a>
+            </div>
+    
+            <div class="blog-card">
+                <div class="blog-card__img"></div>
+                <h2 class="blog-card__title">Understanding BEM (Block Element Modifier)</h2>
+                <p class="blog-card__text">
+                    Angular 10 is released, many developers sent me messages asking we cannot see any features, yes there was no big feature, but sometimes you need to take some time to prepare for a better
+                </p>
+    
+                <a href="#" class="btn btn-blog">Read More</a>
+            </div>
+    
+            <div class="blog-card">
+                <div class="blog-card__img"></div>
+                <h2 class="blog-card__title">Splice, Split and Slice make easier in JavaScript</h2>
+                <p class="blog-card__text">
+                    Angular 10 is released, many developers sent me messages asking we cannot see any features, yes there was no big feature, but sometimes you need to take some time to prepare for a better
+                </p>
+    
+                <a href="#" class="btn btn-blog">Read More</a>
+            </div>
         </div>
-
-        <div class="blog-card">
-            <div class="blog-card__img"></div>
-            <h2 class="blog-card__title">Understanding BEM (Block Element Modifier)</h2>
-            <p class="blog-card__text">
-                Angular 10 is released, many developers sent me messages asking we cannot see any features, yes there was no big feature, but sometimes you need to take some time to prepare for a better
-            </p>
-
-            <a href="#" class="btn btn-blog">Read More</a>
-        </div>
-
-        <div class="blog-card">
-            <div class="blog-card__img"></div>
-            <h2 class="blog-card__title">Splice, Split and Slice make easier in JavaScript</h2>
-            <p class="blog-card__text">
-                Angular 10 is released, many developers sent me messages asking we cannot see any features, yes there was no big feature, but sometimes you need to take some time to prepare for a better
-            </p>
-
-            <a href="#" class="btn btn-blog">Read More</a>
-        </div>
+        
     </section>
 
 
@@ -290,7 +369,7 @@
             <a href="github.com/JoshuaOyewole"><i class="fas fa-github"></i>GitHub</a>
             <a href="@mailto:me@joshuaOyewole.com"><i class="fas fa-github"></i>Email</a>
             <a href="linkedIn.com/JoshuaOyewole"><i class="fas fa-linkedIn"></i>LinkedIn</a>
-            <span>Phone: +2347032054367</span>
+            <span><i class="fas fa-mobile-alt"></i> Phone: +2347032054367</span>
         </div>
       <p>Copyright &copy; 2020 Designed by Joshua Oyewole</p>  
     </footer>

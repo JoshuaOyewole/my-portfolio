@@ -85,9 +85,22 @@ body {
   line-height: 1.6;
   font-size: 1.6rem;
   font-family: 'Nunito','Montserrat','Roboto', sans-serif; }
+<<<<<<< HEAD
   @media (min-width: 112.5em) {
     body {
       font-size: 2.5rem; } }
+=======
+
+.container {
+  padding: 0 12rem;
+  margin: 0 auto; }
+  @media (max-width: 56.25em) {
+    .container {
+      padding: 0 8rem; } }
+  @media (max-width: 43.75em) {
+    .container {
+      padding: 0 5rem; } }
+>>>>>>> 2b6f5a4f1b7889c60c655cde9cd40a51c34ea4a1
 
 h1, h2, h3, h4 {
   line-height: 1.3;
@@ -224,11 +237,14 @@ a {
             margin-right: 5rem; }
           .past-clients .row img:last-child {
             margin-right: 0; } }
+<<<<<<< HEAD
       @media (max-width: 19.38em) {
         .past-clients .row img {
           width: 3rem; }
           .past-clients .row img:not(:last-child) {
             margin-right: 2rem; } }
+=======
+>>>>>>> 2b6f5a4f1b7889c60c655cde9cd40a51c34ea4a1
 
 .section-why {
   padding: 10rem 0 10rem 0; }
@@ -316,10 +332,16 @@ a {
   padding: 10rem 0 10rem 0;
   background-color: #fff; }
 
+<<<<<<< HEAD
 .methodology-wrapper {
   text-align: center;
   border-bottom: 1px solid gainsboro;
   padding-bottom: 3rem; }
+=======
+@media (max-width: 23.44em) {
+  .methodology-wrapper {
+    text-align: center; } }
+>>>>>>> 2b6f5a4f1b7889c60c655cde9cd40a51c34ea4a1
 
 .skill-set {
   padding: 10rem 0 10rem 0;
@@ -410,6 +432,130 @@ a {
         border-bottom: 2px solid #020202ff;
         padding-bottom: 1rem; }
 
+<<<<<<< HEAD
+=======
+/* header{
+    background: linear-gradient(135deg, hsla(174, 100%, 29%, 1) 0%, hsla(120, 100%, 7%, 1) 100%);
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    padding: 0 15rem;
+    color: $light;
+    justify-content: space-between;
+}
+
+.header__content{
+    color: $light;
+
+    &--heading{
+        font-size: 5rem;
+        color: $light;
+    }
+    &--small{
+        font-size: 2rem;
+        color: $light;
+    }
+    &--position{
+        padding-bottom: 2rem;
+        font-size: 2rem;
+        color: $secondary-color;
+    }
+
+    p{
+        margin-bottom: 5rem;
+    }
+}
+
+.c-t-a__btn{
+    margin: 3rem 0;
+     svg{color: $secondary-color;}
+    
+}
+
+.quick_link{
+    color: $light;
+    padding-right: 1rem;
+}
+.header-svg{
+    width: 40rem;
+} */
+.grid-1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 3rem; }
+  @media (max-width: 43.75em) {
+    .grid-1-2 {
+      grid-template-columns: 1fr; } }
+
+.grid-3-1-1-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem 3rem; }
+  @media (max-width: 56.25em) {
+    .grid-3-1-1-1 {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 3rem 4rem; } }
+  @media (max-width: 34.25em) {
+    .grid-3-1-1-1 {
+      grid-template-columns: 1fr; } }
+
+.grid-3-methodology {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem 3rem; }
+  @media (max-width: 36em) {
+    .grid-3-methodology {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 3rem 4rem; } }
+  @media (max-width: 23.44em) {
+    .grid-3-methodology {
+      grid-template-columns: 1fr; } }
+
+.grid-4-1-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem; }
+  @media (max-width: 19.38em) {
+    .grid-4-1-1 {
+      grid-template-columns: repeat(3, 1fr); } }
+
+.grid-2-1-1 {
+  display: flex;
+  grid-gap: 2rem;
+  flex-flow: row-reverse;
+  place-items: center; }
+  @media (max-width: 56.25em) {
+    .grid-2-1-1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 43.75em) {
+    .grid-2-1-1 {
+      grid-template-columns: 1fr; }
+      .grid-2-1-1 .col-1-of-2-left {
+        order: 2; } }
+
+.grid-1-of-3 i {
+  color: #0075F2;
+  padding-right: 1.5rem; }
+
+footer {
+  background-color: #0074f0;
+  padding: 5rem 10rem;
+  color: #faf5f0;
+  display: flex;
+  justify-content: space-between; }
+  @media (max-width: 43.75em) {
+    footer {
+      padding: 5rem; } }
+  @media (max-width: 42.5em) {
+    footer {
+      flex-direction: column;
+      text-align: center; } }
+  @media (max-width: 23.44em) {
+    footer {
+      padding: 3rem .5rem; } }
+
+>>>>>>> 2b6f5a4f1b7889c60c655cde9cd40a51c34ea4a1
 header {
   /* background: linear-gradient(135deg, hsla(174, 100%, 29%, 1) 0%, hsla(225, 5%, 17%, 1) 100%); */
   /*   background-color: #675FE3;  */

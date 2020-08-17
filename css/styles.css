@@ -37,7 +37,7 @@ html {
 
 .container {
   max-width: 140rem;
-  padding: 0 12rem;
+  padding: 0 15rem;
   margin: 0 auto; }
   @media (min-width: 112.5em) {
     .container {
@@ -51,7 +51,7 @@ html {
       padding: 0 5rem; } }
   @media (max-width: 20.75em) {
     .container {
-      padding: 0 2.5rem; } }
+      padding: 0 3rem; } }
 
 .logo__img {
   height: 5rem;
@@ -67,6 +67,9 @@ body {
   @media (min-width: 112.5em) {
     body {
       font-size: 2.5rem; } }
+  @media (max-width: 34.25em) {
+    body {
+      font-size: 2rem; } }
 
 h1, h2, h3, h4 {
   line-height: 1.3;
@@ -137,6 +140,9 @@ a {
 .us-text-transform {
   text-transform: initial; }
 
+.bold {
+  font-weight: bold; }
+
 .col-1-of-2 {
   justify-content: center; }
 
@@ -191,7 +197,8 @@ a {
   .past-clients .row {
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    margin: 0 auto; }
     .past-clients .row img {
       width: 4.5rem;
       height: auto;
@@ -214,7 +221,9 @@ a {
   .section-why ul {
     list-style-type: none; }
   .section-why i {
-    color: #0074f0; }
+    color: #0074f0;
+    margin-right: 1rem;
+    margin-top: .5rem; }
   .section-why .why-img {
     display: flex; }
     .section-why .why-img img {
@@ -376,7 +385,7 @@ a {
   list-style: none; }
   @media (max-width: 43.75em) {
     .list-group {
-      display: none; } }
+      /* display: none; */ } }
   .list-group__item {
     display: inline-block;
     padding: 0 2rem; }
@@ -403,12 +412,16 @@ header {
   color: #020202ff;
   justify-content: space-between;
   padding: 0 8rem; }
+  @media (min-width: 112.5em) {
+    header {
+      padding: 0 15rem; } }
   @media (max-width: 56.25em) {
     header {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      position: relative; }
       header .right {
         display: none; } }
   @media (max-width: 28.75em) {
@@ -443,7 +456,7 @@ header {
   margin: 3rem 0; }
   .c-t-a__btn svg {
     color: #020202ff; }
-  @media (max-width: 20.75em) {
+  @media (max-width: 24.38em) {
     .c-t-a__btn :last-child {
       display: none; } }
 
@@ -466,7 +479,7 @@ header {
 
 .grid-3-1-1-1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 5rem 3rem; }
   @media (max-width: 56.25em) {
     .grid-3-1-1-1 {
@@ -480,11 +493,11 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5rem 3rem; }
-  @media (max-width: 36em) {
+  @media (max-width: 40.63em) {
     .grid-3-methodology {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 3rem 4rem; } }
-  @media (max-width: 23.44em) {
+  @media (max-width: 28.75em) {
     .grid-3-methodology {
       grid-template-columns: 1fr; } }
 
@@ -516,7 +529,7 @@ header {
   padding-right: 1.5rem; }
 
 footer {
-  background-color: #0074f0;
+  background-color: #020202ff;
   padding: 5rem 10rem;
   color: #faf5f0;
   display: flex;

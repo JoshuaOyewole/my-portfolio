@@ -385,7 +385,7 @@ a {
   list-style: none; }
   @media (max-width: 43.75em) {
     .list-group {
-      /* display: none; */ } }
+      display: none; } }
   .list-group__item {
     display: inline-block;
     padding: 0 2rem; }
@@ -399,6 +399,13 @@ a {
         color: #020202ff;
         border-bottom: 2px solid #020202ff;
         padding-bottom: 1rem; }
+
+#hidden {
+  display: none;
+  font-weight: bold; }
+  @media (max-width: 43.75em) {
+    #hidden {
+      display: inline-block; } }
 
 header {
   /* background: linear-gradient(135deg, hsla(174, 100%, 29%, 1) 0%, hsla(225, 5%, 17%, 1) 100%); */
